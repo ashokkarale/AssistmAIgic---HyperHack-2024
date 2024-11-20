@@ -51,9 +51,17 @@ Active UiPath [Pro Trail](https://cloud.uipath.com/portal_/register?subscription
 ### App
 1. AssistmAIgic
 
-### Installation
+## Installation
+### Context Grounding
+Follow this to generate Context grounding Index
+![Setup Context Grounding](https://github.com/user-attachments/assets/6ee1c2fc-20d9-405a-864a-28ae518e9bda)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/AssistmAIgic.git
-   cd AssistmAIgic
+### Automations
+1. Import Automations from Automations folder from this repostitory to the UiPath Orchestrator Folder.
+   
+Setup below listed Integrations Service Connectors
+1. UiPath GenAI Activities
+   **Specific settings**: Nothing
+2. Microsoft Outlook 365
+   **Specific settings**:
+
