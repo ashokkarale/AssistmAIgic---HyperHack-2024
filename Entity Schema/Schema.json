@@ -1,0 +1,557 @@
+{
+  "entities": [
+    {
+      "name": "AMEmails",
+      "displayName": "AM_Emails",
+      "entityTypeId": 0,
+      "entityType": "Entity",
+      "description": "Email incident details",
+      "fields": [
+        {
+          "name": "AttachmentCount",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "DECIMAL",
+            "lengthLimit": 1000,
+            "maxValue": 1000000000000,
+            "minValue": -1000000000000,
+            "decimalPrecision": 2
+          },
+          "isRequired": true,
+          "displayName": "AttachmentCount",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "Body",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 4000
+          },
+          "isRequired": false,
+          "displayName": "Body",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "BodyAsHtml",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 1400
+          },
+          "isRequired": false,
+          "displayName": "BodyAsHtml",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "Category",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "Category",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "CitationsString",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 4000
+          },
+          "isRequired": false,
+          "displayName": "CitationsString",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "EmailLanguage",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "EmailLanguage",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "EmailSumary",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 4000
+          },
+          "isRequired": false,
+          "displayName": "EmailSumary",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "FromAddress",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": true,
+          "displayName": "FromAddress",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "FromDisplayName",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": true,
+          "displayName": "FromDisplayName",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "GeneratedResponse",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 4000
+          },
+          "isRequired": false,
+          "displayName": "GeneratedResponse",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "HumanAgentMailId",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 1000
+          },
+          "isRequired": false,
+          "displayName": "HumanAgentMailId",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "Importance",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": true,
+          "displayName": "Importance",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "InlineAttachmentCount",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "DECIMAL",
+            "lengthLimit": 1000,
+            "maxValue": 1000000000000,
+            "minValue": -1000000000000,
+            "decimalPrecision": 2
+          },
+          "isRequired": true,
+          "displayName": "InlineAttachmentCount",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "MessageId",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": true,
+          "displayName": "MessageId",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "ReceivedDateTime",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "DATETIMEOFFSET",
+            "lengthLimit": 200
+          },
+          "isRequired": true,
+          "displayName": "ReceivedDateTime",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "ReferenceId",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": true,
+          "displayName": "ReferenceId",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "RepliedAt",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "DATETIMEOFFSET",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "RepliedAt",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "RepliedEmailBody",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 4000
+          },
+          "isRequired": false,
+          "displayName": "RepliedEmailBody",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "RepliedMessageId",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 2000
+          },
+          "isRequired": false,
+          "displayName": "RepliedMessageId",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "SentimentConfidenceScore",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "DECIMAL",
+            "lengthLimit": 1000,
+            "maxValue": 1000000000000,
+            "minValue": -1000000000000,
+            "decimalPrecision": 2
+          },
+          "isRequired": false,
+          "displayName": "SentimentConfidenceScore",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "SentimentLabel",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "SentimentLabel",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "SentimentScore",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "DECIMAL",
+            "lengthLimit": 1000,
+            "maxValue": 1000000000000,
+            "minValue": -1000000000000,
+            "decimalPrecision": 2
+          },
+          "isRequired": false,
+          "displayName": "SentimentScore",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "StandardAttachmentCount",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "DECIMAL",
+            "lengthLimit": 1000,
+            "maxValue": 1000000000000,
+            "minValue": -1000000000000,
+            "decimalPrecision": 2
+          },
+          "isRequired": true,
+          "displayName": "StandardAttachmentCount",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "Status",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": true,
+          "displayName": "Status",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "Subject",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 1000
+          },
+          "isRequired": true,
+          "displayName": "Subject",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "WebLink",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 4000
+          },
+          "isRequired": true,
+          "displayName": "WebLink",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        }
+      ],
+      "isRbacEnabled": false,
+      "invalidIdentifiers": [],
+      "isModelReserved": false
+    },
+    {
+      "name": "LanguageBase",
+      "displayName": "LanguageBase",
+      "entityTypeId": 0,
+      "entityType": "Entity",
+      "description": "Languages available to translate",
+      "fields": [
+        {
+          "name": "Name",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "Name",
+          "description": "",
+          "isSystemField": false,
+          "fieldDisplayType": "Basic",
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        }
+      ],
+      "isRbacEnabled": false,
+      "invalidIdentifiers": [],
+      "isModelReserved": false
+    }
+  ],
+  "choicesets": []
+}
