@@ -24,14 +24,21 @@ AssistmAIgic is an AI-driven solution designed to automate and enhance the email
 - **Agent Empowerment**: Reduces cognitive load on support agents, preventing burnout and improving job satisfaction.
 
 ## Components
-### App
+### Integrations Service Connectors
+1. UiPath GenAI Activities
+2. Microsoft Outlook 365
+![image](https://github.com/user-attachments/assets/39b73ece-0756-40fd-9579-900233dd831c)
 
 ### Data Services
 1. AM_Emails
+2. LanguageBase
 
+### App
+1. AssistmAIgic
 
-1. LanguageBase
-
+### Automations
+![image](https://github.com/user-attachments/assets/87229ecf-137c-4e18-a251-995cabf95342)
+1. 
 
 
 ### Installation
