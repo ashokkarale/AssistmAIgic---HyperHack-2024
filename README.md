@@ -66,7 +66,7 @@ Follow the steps in below animation to import entities in Data Services
 Setup below listed Integrations Service Connectors
 1. UiPath GenAI Activities
    **Specific settings**: Nothing
-2. Microsoft Outlook 365
+3. Microsoft Outlook 365
    **Specific settings**: Nothing for now. We will be setting a trigger in upcoming step.
    
 ### Automations
