@@ -53,11 +53,19 @@ Active UiPath [Pro Trail](https://cloud.uipath.com/portal_/register?subscription
 
 ## Installation
 ### Context Grounding
-Follow this to generate Context grounding Index
+Follow the steps in below animation to generate Context grounding Index
+
 ![Setup Context Grounding](https://github.com/user-attachments/assets/6ee1c2fc-20d9-405a-864a-28ae518e9bda)
 
+### Import Entities
+Follow the steps in below animation to import entities in Data Services
+
+![Import Entities](https://github.com/user-attachments/assets/a8f8b0c8-9513-4c25-b70b-161a29585e37)
+
+
 ### Automations
-1. Import Automations from Automations folder from this repostitory to the UiPath Orchestrator Folder.
+1. Import Automations from Automations folder from this repostitory to the UiPath Orchestrator Folder. Follow these steps:
+   
    
 Setup below listed Integrations Service Connectors
 1. UiPath GenAI Activities
