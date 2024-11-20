@@ -27,6 +27,7 @@ AssistmAIgic is an AI-driven solution designed to automate and enhance the email
 ### Integrations Service Connectors
 1. UiPath GenAI Activities
 2. Microsoft Outlook 365
+3. 
 ![image](https://github.com/user-attachments/assets/39b73ece-0756-40fd-9579-900233dd831c)
 
 ### Data Services
@@ -37,6 +38,15 @@ AssistmAIgic is an AI-driven solution designed to automate and enhance the email
 1. AssistmAIgic
 
 ### Automations
+1. Email_Processing_Performer
+2. GetRepliedMailMessageId
+3. MarkEmailActioned
+4. AM_Mailbox_Watchman
+5. Language_Translator
+6. Content_Generation
+7. Rewrite_Content
+8. SendAcknowledgement
+
 ![image](https://github.com/user-attachments/assets/87229ecf-137c-4e18-a251-995cabf95342)
 1. 
 
