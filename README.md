@@ -62,14 +62,19 @@ Follow the steps in below animation to import entities in Data Services
 
 ![Import Entities](https://github.com/user-attachments/assets/a8f8b0c8-9513-4c25-b70b-161a29585e37)
 
-
-### Automations
-1. Import Automations from Automations folder from this repostitory to the UiPath Orchestrator Folder. Follow these steps:
-   
-   
+### Integrations Service Connectors
 Setup below listed Integrations Service Connectors
 1. UiPath GenAI Activities
    **Specific settings**: Nothing
 2. Microsoft Outlook 365
-   **Specific settings**:
+   **Specific settings**: Nothing for now. We will be setting a trigger in upcoming step.
+   
+### Automations
+Import, verify no error in the code due to enviornment change and publish the Automations to the UiPath Orchestrator Folder. Follow these steps:
+
+![Import   Publish](https://github.com/user-attachments/assets/fc011213-bbf6-41e1-83cc-64dbba0ca6ec)
+
+_If Any error in any code, check iof previous steps are followed correctly for Integration Service connections, Importing entity etc._
+   
+
 
