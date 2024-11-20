@@ -23,12 +23,16 @@ AssistmAIgic is an AI-driven solution designed to automate and enhance the email
 - **Customer Satisfaction**: Improves customer satisfaction through timely and relevant responses.
 - **Agent Empowerment**: Reduces cognitive load on support agents, preventing burnout and improving job satisfaction.
 
-## Usage
+## Components
+### App
 
-### Prerequisites
+### Data Services
+1. AM_Emails
 
-- Python 3.8+
-- Required libraries: `pandas`, `nltk`, `googletrans`, `email`, etc.
+
+1. LanguageBase
+
+
 
 ### Installation
 
