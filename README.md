@@ -24,7 +24,7 @@ AssistmAIgic is an AI-driven solution designed to automate and enhance the email
 - **Agent Empowerment**: Reduces cognitive load on support agents, preventing burnout and improving job satisfaction.
 
 ## Prerequisits
-Active UiPath Pro Trail license
+Active UiPath [Pro Trail](https://cloud.uipath.com/portal_/register?subscriptionPlan=trial) license
 ## Components
 ### Integrations Service Connectors
 1. UiPath GenAI Activities
