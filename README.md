@@ -32,13 +32,6 @@ Active UiPath Pro Trail license
    
 ![image](https://github.com/user-attachments/assets/39b73ece-0756-40fd-9579-900233dd831c)
 
-### Data Services
-1. AM_Emails
-2. LanguageBase
-
-### App
-1. AssistmAIgic
-
 ### Automations
 1. Email_Processing_Performer
 2. GetRepliedMailMessageId
@@ -50,6 +43,13 @@ Active UiPath Pro Trail license
 8. SendAcknowledgement
 
 ![image](https://github.com/user-attachments/assets/87229ecf-137c-4e18-a251-995cabf95342)
+
+### Data Services
+1. AM_Emails
+2. LanguageBase
+
+### App
+1. AssistmAIgic
 
 ### Installation
 
