@@ -68,7 +68,14 @@ Setup below listed Integrations Service Connectors
    Specific settings: Nothing
 3. Microsoft Outlook 365
    Specific settings: Nothing for now. We will be setting a trigger in upcoming step.
-   
+
+### Orchestrator Queue
+Add the below Queue in Orchestrator without Auto Retry
+1. Email_Queue
+2. ReplyEmailQueue
+
+![image](https://github.com/user-attachments/assets/1a3a6b8e-e78e-47b9-ad0a-dfc639b8f6ec)
+
 ### Automations
 Import, verify no error in the code due to enviornment change and publish the Automations to the UiPath Orchestrator Folder. Follow these steps:
 
@@ -78,9 +85,30 @@ _If Any error in any code, check iof previous steps are followed correctly for I
    
 Import all the automations from this repository and Add Processes in Orchestrator folder like this
 
+![Add Process](https://github.com/user-attachments/assets/ffb34382-6d2e-493d-8417-3e071d6730f1)
 
+After Importing, Publishing and adding processes to the Orchestrator, it should contain 8 processes like this.
+
+![image](https://github.com/user-attachments/assets/8bb5f4db-5bd0-48d6-b561-560ef78e46cd)
 
 ### Integration Services Connection Trigger
+Setup Microsoft Outlook 365 trigger like this.
 
+![image](https://github.com/user-attachments/assets/20fdd8d7-92db-495e-ba19-788ca5bbe32d)
+
+### Upload Sentimate Images to Storage Bucket
+Upload Sentiment images to Storage Bucket like this
+
+![Upload Sentiments](https://github.com/user-attachments/assets/4e26ec73-a292-407c-bcbb-05a58cc40bac)
+
+
+### Import AssistmAIgic App
+Follow these steps to import app
+
+![Import App](https://github.com/user-attachments/assets/4de3e4d7-fcf2-4064-b6d0-a255b9511e2b)
+
+That's it.
+
+You are good to start using AssistmAIgic. Any issue feel free to connect over [LinkedIn] (https://www.linkedin.com/in/ashokkarale/) or Email
 
 
